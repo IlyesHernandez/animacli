@@ -1,0 +1,20 @@
+{
+  "name": "anima",
+  "version": "0.1.0",
+  "description": "Anima is powerfull Command Line Interface tool for search and find info about anime.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "keywords": [
+    "anime",
+    "cli"
+  ],
+  "author": "Ilyès Hernandez <ilyeshernandez@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "readline": "^1.3.0"
+  }
+}

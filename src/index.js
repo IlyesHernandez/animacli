@@ -1,7 +1,7 @@
 /*
  * File Structure:
   * Import module we must to have.
-  * All functions.
+  * Code
 */
 
 const { _CommandsMenu } = require('./CommandMenu.js')

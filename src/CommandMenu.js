@@ -5,7 +5,6 @@
   * Exports all functions.
 */
 
-const chalk = require("chalk");
 const _style = require('./configuration/chalk.preset.js')
 
 function _CommandsMenu(commands=[]) 

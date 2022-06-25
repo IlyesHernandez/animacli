@@ -1,16 +1,22 @@
+/*
+ * File Structure:
+  * Import module we must to have.
+  * Exports all commands.
+*/
+
+const Help = require("../commands/help.js")
+
 module.exports._commands = [
     {
-        query: "help",
-        description: "Hello world!",
-        action: () => {
-            console.log("hello world!")
-        }
+        query: Help.getQuery(),
+        description: Help.getDescription(),
+        utility: Help.getUtility(),
+        action: Help.getAction(),
     },
     {
-        query: "getFilm",
-        description: "hello m<lkwdjfqsdf",
-        action: () => {
-            console.log("hello world! 2")
-        }
-    }
+        query: "Help.getQuery()",
+        description: "Help.getDescription()",
+        utility: "Help.getUtility()",
+        action: "Help.getAction()",
+    },
 ]

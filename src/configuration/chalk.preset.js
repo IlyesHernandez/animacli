@@ -17,7 +17,8 @@ function alert(content)
   return chalk.bold(chalk.yellow(content))
 }
 
-function error(err){
+function error(err)
+{
   return chalk.bold(chalk.red(err))
 }
 
